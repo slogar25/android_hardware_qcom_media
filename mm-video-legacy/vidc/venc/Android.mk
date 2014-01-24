@@ -44,11 +44,7 @@ include $(CLEAR_VARS)
 
 libmm-venc-inc      := bionic/libc/include
 libmm-venc-inc      += bionic/libstdc++/include
-
-libmm-venc-inc      += $(LOCAL_PATH)/inc
-
 libmm-venc-inc      := $(LOCAL_PATH)/inc
-
 libmm-venc-inc      += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 libmm-venc-inc      += $(OMX_VIDEO_PATH)/vidc/common/inc
 libmm-venc-inc      += hardware/qcom/media/mm-core/inc
